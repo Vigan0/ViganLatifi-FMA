@@ -1,0 +1,50 @@
+.bg-img {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/MEDIA/IMAGES/bleach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(5px);
+}
+
+body {
+    background-color: black;
+}
+
+#bleach {
+    background-color: orange;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 30px;
+    background-color: black;
+    color: orange;
+}
+
+
+
+h1:hover {
+    background-color: orange;
+    color: black;
+}
+
+#bleach:hover {
+    background-color: black;
+    color: orange;
+}
+
+#bleach:hover::first-letter {
+    font-size: 50px;
+    line-height: 0.9;
+    margin-right: 5px;
+    float: left;
+}
+
+
+

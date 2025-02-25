@@ -1,0 +1,23 @@
+article {
+    line-height: 1.2;
+    background-color: grey;
+    display: grid;
+}
+
+
+p::first-letter {
+    font-size: 100px;
+    float: left;
+	font-family: "Montagu Slab", serif;
+	font-size: 100px;
+	line-height: 0.8;
+	color: black;
+	margin-right: 5px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+}

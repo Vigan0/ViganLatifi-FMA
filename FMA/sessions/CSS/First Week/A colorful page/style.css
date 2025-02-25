@@ -1,0 +1,30 @@
+body {
+    background-image: url(/MEDIA/IMAGES/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    background: rgb(0,27,117);
+    background: linear-gradient(90deg, rgba(0, 27, 117, 0.581) 0%, rgba(0, 174, 255, 0.559) 100%);
+    color: aliceblue;
+}
+
+h1 {
+    background: rgb(0,16,68);
+    background: linear-gradient(90deg, rgba(0,16,68,1) 0%, rgba(60,194,255,1) 100%);
+    color: antiquewhite;
+}
+
+nav {
+    background-color:rgba(0, 0, 0, 0.31);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li::marker {
+    color: white;
+}
