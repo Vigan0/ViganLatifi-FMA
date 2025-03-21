@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-price {
+    border: 2px solid black;
+    font-size: 2em;
+    padding: 3px;
+    font-weight: bold;
+    width: 49%;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-date {
+    display: flex;
+    border: 2px solid black;
+    border-left: 1px;
+    font-size: 2em;
+    padding: 3px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    border-bottom: none;
+    font-weight: bold
+}
+
+.card-row{
+    display: flex;
+    flex-direction: row;
+    width: 20.74%;
+}
+
+.card-image {
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.card-copyright {
+    position: absolute;
+    margin-top: -37%;
+    margin-left: 1%;
+    font-weight: bold;
+}

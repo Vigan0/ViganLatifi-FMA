@@ -1,0 +1,33 @@
+/* flex-direction: row / column / row-reverse / column-reverse
+flex-wrap: wrap / nowrap / wrapreverse
+flex-grow:
+justify-content: flex-start / flex-end / center / space-between / space-around / space-evenly (vendosja horizontale)
+align-items: flex-start / flex-end / center / stretch / baseline
+align-content: flex-start / flex-end / stretch / etc...  */
+
+body {
+    background-color: #FFD372;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 2rem;
+    flex-wrap: wrap; */
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    padding: 70px;
+    background-color: #ffff;
+    gap: 2rem;
+        
+
+}
+
+.spaced {
+    border: 2px solid black;
+    padding: 10px;
+}
