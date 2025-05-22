@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boring Calculator</title>
+</head>
+<body>
+    <script>
+        let firstNumber = parseFloat(prompt('Write the first Number'));
+        let operator = prompt('what operator do you want to apply').toLowerCase();
+        let secondNumber = parseFloat(prompt('Write the second number'));
+        
+        if (isNaN(firstNumber) || isNaN(secondNumber)) {
+            throw new Error('Please write valid numbers')
+        }
+        let result
+        switch(operator){
+            case "+":
+                result = firstNumber + secondNumber
+            case '-':
+                result = firstNumber - secondNumber    
+            case '*':
+                result = firstNumber * secondNumber
+            case '/':
+                result = firstNumber / secondNumber
+        }
+        
+        console.log(`the result is: ${result}`)
+    </script>
+</body>
+</html>

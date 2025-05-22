@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        @keyframes spanUp {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        body {
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .form-class {
+            background-color: rgb(190, 190, 190);
+            padding: 40px;
+        }
+        #first-name {
+            padding: 2px 20px;
+        }
+        #email {
+            padding: 2px 20px;
+        }
+        button {
+            padding: 5px;
+            color: white;
+            background-color: rgb(32, 32, 253);
+            border: 0px;
+        }
+        img {
+            display: flex;
+            width: 50px;
+            height: 50px;
+            justify-content: flex-end;
+            align-self: flex-end;
+        }
+        input:focus {
+            #under {
+                animation: spanUp;
+            }
+        }
+    </style>
+</head>
+<body><div class="form-class">
+    <form action="">
+        <input type="text" name="Name" id="first-name" placeholder="First Name"><br><span id="under">*Yes</span><br>
+        <input type="text" name="Last name" id="last-name" placeholder="Last Name"><br><br>
+        <input type="email" name="email" id="email" placeholder="Email"><br><br>
+        <div class="">
+        <button>Submit</button>
+    </form>
+    <img src="/MEDIA/IMAGES/loading icon.jpg" alt="loading">
+</div>
+</div>
+</body>
+</html>

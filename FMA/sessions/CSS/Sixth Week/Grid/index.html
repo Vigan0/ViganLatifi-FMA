@@ -1,0 +1,47 @@
+<!-- display: grid;
+ grid-template-rows: p.sh 1fr 2fr
+ grid-template-columns
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            background-color: white;
+        }
+
+        .box {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>Hello</p>
+    </div>
+    <div class="box">
+        <p>Hello</p>
+    </div>
+    <div class="box">
+        <p>Hello</p>
+    </div>
+    <div class="box">
+        <p>Hello</p>
+    </div>  
+</body>
+</html>

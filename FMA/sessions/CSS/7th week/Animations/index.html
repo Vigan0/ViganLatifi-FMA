@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        :root {
+            --main-bg-color: white;
+            --main-text-color: rgb(13, 130, 255);
+            /* there are main-text-size, secondary-bg-color, secondary-text-color etc */
+        }
+        @keyframes colorChange {
+            from {
+                background-color: black;
+            }
+            to {
+                background-color: aquamarine;
+            }
+        }
+        p {
+            background-color: black;
+            color: var(--main-text-color);
+        }
+
+        p:hover {
+            animation: colorChange 0.5s infinite alternate
+        }
+    </style>
+</head>
+<body>
+    <p>Hello</p>
+</body>
+</html>
