@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Click ere</button>
+    <p>Hello</p>
+    <script>
+        let bodi = document.querySelector('body')
+        bodi.style.backgroundColor = ('brown')
+
+        let myBtn = document.getElementById('btn');
+        myBtn.style.backgroundColor = 'green';
+        myBtn.style.color = 'white';
+        myBtn.textContent = 'welcome';
+
+        let paragraf = document.querySelector('p');
+        paragraf.style.color = 'aqua';
+        paragraf.style.backgroundColor = 'pink';
+        paragraf.textContent = 'This text was edited by javascript';
+
+        let heading = document.createElement('h1');
+        heading.innerHTML = 'Hello i am a heading added dunamicly by JS'
+        document.body.appendChild(heading);
+    </script>
+</body>
+</html>
